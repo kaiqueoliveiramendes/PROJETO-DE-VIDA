@@ -9,6 +9,22 @@
      --botao-inativo: rgba(58, 55, 94, 0.5);
      --texto-fundo: Irgba(58, 55, 94, 0.3);
 }
+.botao {
+      font-family: "Crakra Petch", sans-serif;
+      background-color: var(--botao-inativo);
+      color: var(--branco);
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+      font-size: 18px;
+      align-items: center;
+      width: 100%;
+      border-bottom: 4px solid var(--botao-ativo);
+      border-left: 2px solid var(--botao-ativo);
+      border-right: 2px solid var(--botao-ativo);
+      border-top: none;
+  }
+  
 .ativo{
       background-color: var(--botao-ativo);
       border-bottom: 4px solid var(--verde);
